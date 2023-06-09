@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+.font{
+    font-family: 'Work Sans', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    min-height: 100vh;
+  }
+  
+  /* Example styling for section 1 */
+  #section1 {
+    background: linear-gradient(180deg, #02245A 0%, #013B6B 100%);
+    padding: 50px;
+    color: #FFFFFF;
+  }
+  
+  /* Rest of your section styles */
+  
+  /* Styling for navigation */
+  .navigation {
+    text-align: center;
+  }
+  
+  .navigation-item {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .navigation-item a {
+    text-decoration: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+    /* identical to box height, or 225% */
+    display: flex;
+    align-items: center;
+    color: #FFD500;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .second-image-container {
+    margin-top: 7px;
+  }
+
+  .section-text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F5F5F5;
+    margin-top: 31px;
+  }
+
+  .background-image {
+    position: absolute;
+    width: 662px;
+    height: 621px;
+    left: -200px;
+    top: -321px;
+    background-image: url(./images/teras-kuning\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    transform: rotate(60deg);
+    z-index: 1;
+  }
+  
+
+  #section1 {
+    position: relative;
+    margin-bottom: 0px;
+  }
+  
+  #section2 {
+    text-align: center;
+    margin-top: 0px; /* Remove margin top */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding: 50px 0; /* Add padding top and bottom */
+    margin-bottom: 0px;
+  }
+  
+  .section-title2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    color: #013B6B;
+    margin-top: 70px; 
+  }
+
+  .section-paragraph {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #013B6B;
+    width: 912px; /* Added width */
+    height: 128px; /* Added height */
+    margin: 50px auto 20px; /* Center horizontally with auto margin */
+  }
+
+  #section3 {
+    text-align: center;
+    background-color: #FFD500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 50px 0; /* Add padding top and bottom */
+    background-image: url('./images/Atap\ ITB\ 1.svg');
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .section-title3 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #013B6B;
+  }
+
+  .box {
+    position: relative;
+    width: 753px;
+    height: 435px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    margin: 0 auto; /* Center the box horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box p {
+    width: 637px;
+    height: 256px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px; /* Updated line-height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #013B6B;
+    margin: 10px 0;
+    
+  }
+  
+  .box p:nth-child(2) {
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: -10px; /* Adjusted margin to move the 3rd paragraph up */
+  }
+  
+  .box p:nth-child(3) {
+    margin-top: 0; /* Resetting the margin-top value for the 3rd paragraph */
+    margin-bottom: 100px;
+  }
+
+  .cta-link {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #03A500;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 580px;
+    height: 64px;
+    box-shadow: 0px 20px 20px -8px rgba(0, 0, 0, 0.3);
+
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  #section4 {
+    background: linear-gradient(180deg, #02245A 0%, #013B6B 100%);
+    text-align: center;
+    margin-top: 0px; /* Remove margin top */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0; /* Add padding top and bottom */
+    margin-bottom: 0px;
+    position: relative;
+  }
+  
+
+  .container {
+    width: 912px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
+  .section-title4 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    align-items: center;
+    text-align: center;
+    color: #FFD500;
+  }
+  
+  .paragraph-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section-paragraph4 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+
+  .rectangle-box {
+    width: 580px;
+    height: 64px;
+    background: #03A500;
+    box-shadow: 0px 20px 20px -8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rectangle-box p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  .svg-image1 {
+    position: absolute;
+    top: 50px;
+    left: 0;
+  }
+
+  .svg-image2 {
+    position: absolute;
+    bottom: 200px;
+    right: 0;
+  }
+
+  #section5 {
+    background-color: #F2F2F2;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .image-container {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  
+  .top-image-section5 {
+    width: 499px; /* Adjust the width as needed */
+    height: 281px; /* Adjust the height as needed */
+  }
+  
+  .container {
+    margin-bottom: 50px;
+  }
+  
+  .section-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #013B6B;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .logo {
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+  }
+
+  .svg-image {
+    position: absolute;
+    top: 600px;
+    left: 0;
+    transform: translateY(-50%);
+    width: 400px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+  }
+
+  .svg-image2 {
+    position: absolute;
+    top: 300px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 400px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+  }
+  
+  .svg-image-grey1 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    transform: translateY(-50%);
+    width: 400px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+  }
+  
+  .svg-image-grey2 {
+    position: absolute;
+    top: 400px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+  }
